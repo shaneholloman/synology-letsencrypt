@@ -1,6 +1,6 @@
 # synology-letsencrypt
 
-Create and manage a [Let's Encrypt](https://letsencrypt.org/) certificate on a Synology NAS.
+Create and manage a [Let's Encrypt](https://letsencrypt.org/) certificate on a Synology NAS. When a certificate is issued or renewed, a deploy hook installs it in DSM and reloads the services that use it.
 
 This project uses [lego](https://go-acme.github.io/lego/) and the [ACME DNS-01 challenge](https://letsencrypt.org/docs/challenge-types/#dns-01-challenge) with any supported [DNS provider](https://go-acme.github.io/lego/dns/).
 
